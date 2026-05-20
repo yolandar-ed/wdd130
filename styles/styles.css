@@ -43,9 +43,7 @@ main img {
     height: var(--height);
     border: var(--border);
     padding: 2px;
-
     box-shadow: 0 0 30px gray;
-    float: right;
 
 }
 
