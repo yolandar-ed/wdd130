@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #055a05; /* forest green */
-    --secondary-color: #f8c59b; /* warm sand */
-    --accent1-color: #1a4758; /* dark slate blue */
-    --accent2-color: #09c46a; /* vibrant teal */
+    --primary-color: #055a05; 
+    --secondary-color: #433549; 
+    --accent1-color: #1a4758; 
+    --accent2-color: #4a769e; 
     --heading-color: "Times New Roman", georgia, serif; 
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -82,7 +82,7 @@ header img {
     bottom: 25px;
     left: 4%;
     right: 4%;
-    background-color: rgba(26, 71, 88, 0.75); /* --accent1-color with transparency */
+    background-color: var(--accent2-color);
     color: #ffffff;
     padding: 20px;
     font-size: 14px;
@@ -95,7 +95,7 @@ header img {
     float: right;
     width: 110px;
     height: auto;
-    border: 1px solid rgba(255, 255, 255, 0.4);
+    border: 1px solid var(--secondary-color);
 }
 
 .logo {
