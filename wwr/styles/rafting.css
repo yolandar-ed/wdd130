@@ -32,7 +32,6 @@ header, main, footer {
 h1, h2 {
     font-family: var(--heading-color);
     color: var(--primary-color);
-    margin: center;
     
 }
 
