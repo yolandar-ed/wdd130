@@ -26,6 +26,7 @@ header, main, footer {
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 20px;
+    display: grid;
 
 }
 
@@ -48,6 +49,7 @@ header img {
 nav, p, section, article {
     font-family: var(--body-font);
     font-size: 0.95rem;
+    flex: auto;
 }
 
 h1, h2 {
