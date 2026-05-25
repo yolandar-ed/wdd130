@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #1da8df; 
-    --secondary-color: #483a6b; 
-    --accent1-color: #1a4758; 
-    --accent2-color: #4a769e; 
+    --primary-color:rgb(29, 168, 223); 
+    --secondary-color: rgb(72, 58, 107); 
+    --accent1-color: rgb(26, 71, 88); 
+    --accent2-color: rgb(74, 118, 158); 
     --heading-color: "Times New Roman", georgia, serif; 
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,7 @@
 }
 
 body {
-    color: rgb(red, green, blue), 43, 43;
+    color: rgb(43, 43, 43);
     font-family: var(--body-font);
     background-color: rgb(255, 255, 255);
     line-height: 1.5;
@@ -53,7 +53,7 @@ nav, p, section, article {
 h1, h2 {
     font-family: var(--heading-color);
     background-color: var(--primary-color);
-    color: rgb(255, 255, 255);
+    color: rgb(43, 43, 43);
     text-align: center;
 }
 
@@ -165,7 +165,7 @@ nav ul li a:hover {
 .history-container p {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: rgb(red, green, blue), 68, 68;
+    color: rgb(68, 68, 68);
     text-align: left;
     margin: 0;
 }
@@ -173,7 +173,7 @@ nav ul li a:hover {
 .history-media, .history-container img {
     width: 330px;
     height: 230px;
-    background-color: rgb(red, green, blue), 58, 107;
+    background-color: rgb(60, 58, 107);
     display: block;
     margin: 0 auto;
 }
@@ -270,7 +270,7 @@ footer p, footer span {
 .adventure-cards figcaption {
     font-family: var(--body-font);
     font-size: 0.85rem;
-    color: rgb(red, green, blue), 51, 51;
+    color: rgb(51, 51, 51);
     text-align: center;
     line-height: 1.3;
 }
