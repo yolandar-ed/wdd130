@@ -54,12 +54,6 @@ nav, p, section, article {
     flex: auto;
 }
 
-.company-info h1 {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-}
-
-
 nav {
     flex-grow: 1;
     margin-left: 40px; 
@@ -275,16 +269,6 @@ form button:hover {
     font-size: 2rem;
   
 }
-
-
-.company-info h3 {
-    font-family: var(--heading-color);
-    font-size: 2.2rem; 
-    color: rgb(43, 43, 43);
-    margin-bottom: 15px;  
-    background-color: transparent;
-}
-
 
 
 .hero article {
