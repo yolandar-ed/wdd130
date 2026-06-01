@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: #1d2783;
+    font-size: 24px;
+    margin: 10px 0 20px 0;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+}
+
+
+form {
+    background-color: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    border-radius: 12px;
+    padding: 30px;
+    width: 500px;
+   
+}
+
+
+fieldset {
+    border: 1px solid #b0bec5;
+    background-color: #f2f2f2;
+    margin-bottom: 25px;
+    padding: 25px 20px;
+}
+
+legend {
+    color: #1d2783;
+    font-size: 19px;
+    font-family: 'Georgia', serif;
+    padding: 0 6px;
+}
+
+
+.form-item, .form-item-column2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.form-item label, .form-item-column2 label {
+    margin-right: 12px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form-item input, .form-item-column2 input {
+    width: 280px;
+    height: 28px;
+    border: 1px solid #999999;
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+
+.form-row, .form-row-pet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.form-row label, .form-row-pet label {
+    font-size: 15px;
+    color: #333333;
+}
+
+
+select {
+    height: 32px;
+    width: 100px;
+    border: 1px solid #999999;
+    font-size: 14px;
+    padding-left: 6px;
+}
+
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+
+.form-row-textarea-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row-textarea-row label {
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #333333;
+}
+
+textarea {
+    width: 100%;
+    height: 75px;
+    border: 1px solid #999999;
+    padding: 6px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #757575;
+    resize: none;
+    box-sizing: border-box;
+}
+
+
+input[type="submit"] {
+    display: block;
+    background-color: #000080;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 25px auto 5px auto;
+}
+
+
+footer {
+    width: 500px;
+    margin-top: 15px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #757575;
+    margin: 0;
+}
