@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting Company</title>
+    <meta name="description" content="Contact Us page for White Water Rafting Company, featuring business location address, an interactive Google map, and a message submission form.">
+    <meta name="author" content="Yolanda Rodriguez">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="White Water Rafting Company Logo" width="300">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Company Heading and Address Section -->
+        <section class="company-info">
+            <h1>Peru Rafting Company</h1>
+            <address>
+                Portal Confiturias 211, Plaza de Armas.<br>
+                Cusco, Perú<br>
+                <a href="tel:+51 084 232666">+51 084 232666</a><br>
+                <a href="mailto:info@mayuc.com">info@mayuc.com</a>
+            </address>
+        </section>
+
+        
+        <div class="contact-container">
+           
+            <section class="map-box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.3067586545185!2d-71.98138832491396!3d-13.51675668685107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd6739cd7f175%3A0x27c9a9082fc6343!2sPlaza%20de%20Armas!5e0!3m2!1sen!2ssv!4v1780293061871!5m2!1sen!2ssv" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  
+            </section>
+
+            <!-- Interactive Form -->
+            <section class="form-box">
+                <form action="#" method="post">
+                    
+                    <div class="form-group">
+                        <label id="label-name" for="user-name">Name</label>
+                        <input type="text" id="user-name" name="user-name" placeholder="Placeholder" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label id="label-email" for="user-email">Email</label>
+                        <input type="email" id="user-email" name="user-email" placeholder="Placeholder" required>
+                    </div>
+
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-general" name="message-purpose" value="general" checked>
+                            <label for="purpose-general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-reservation" name="message-purpose" value="reservation">
+                            <label for="purpose-reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="purpose-website" name="message-purpose" value="website">
+                            <label for="purpose-website">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label id="label-message" for="user-message">Message</label>
+                        <textarea id="user-message" name="user-message" rows="5" placeholder="Type here" required></textarea>
+                    </div>
+
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter" checked>
+                        <label for="subscribe-newsletter">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Employee Profiles Section -->
+        <section class="team-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-grid">
+                <figure class="profile-card">
+                    <img src="images/employee1.jpg" alt="Trip Coordinator" width="150">
+                    <figcaption>Trip Coordinator</figcaption>
+                </figure>
+                <figure class="profile-card">
+                    <img src="images/employee2.jpg" alt="Customer Success Specialist" width="150">
+                    <figcaption>Manager</figcaption>
+                </figure>
+                <figure class="profile-card">
+                    <img src="images/employee3.webp" alt="Manager" width="150">
+                    <figcaption>Customer Success</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 🎀 Exciting Expeditions 🎀 Yolanda Rodriguez</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook_174848.png" alt="Facebook Icon" width="45">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin_174857.png" alt="LinkedIn Icon" width="45">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram_3621435.png" alt="Instagram Icon" width="45">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
